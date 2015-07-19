@@ -74,8 +74,7 @@
       <!---->
       <section data-markdown data-separator-notes="^Note:">
         <script type="text/template">
-          ## How did we get here? 
-          - Ops Monitoring
+          ## How did we get here? - Ops Monitoring
           <!-- .element: class="fragment" data-fragment-index="1" -->
           - Web Analytics
           <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -89,51 +88,42 @@
         Note: TODO IMG
       </section>
       <section data-markdown>
-        ##  Streaming Data is Different 
-        * always-on 
-        * loose/changing structure 
-        * high-cardinality 
-        
-        Note: TODO IMG Sources like webmetrics, twitter streams = almost infinite #s dims Caveat: my views are formed by my needs; trust but verify. Also: I'm new around here, and I want to mention that for two reasons: while I have worked in web analytics and as a designer, I don't know if I'm a developer. More on that later.
+        ## Streaming Data is Different * always-on * loose/changing structure * high-cardinality Note: TODO IMG Sources like webmetrics, twitter streams = almost infinite #s dims Caveat: my views are formed by my needs; trust but verify. Also: I'm new around here, and I want to mention that for two reasons: while I have worked in web analytics and as a designer, I don't know if I'm a developer. More on that later.
       </section>
       <section data-separator-notes="^Note:">
         <h2>If you've read your Tufte, chart rules still apply: 
                     <br>no pies, no donuts</h2>
-        
+
         <img src="img/nodo.jpg" style="width:200px;" />
       </section>
       <section data-markdown data-background-image="img/uuuuuaaaarrrgh.gif">
       </section>
       <section data-markdown data-separator-notes="^Note:">
-        ## Streaming vs. Real-time 
-        * Important for infrastructure planning 
-        * Streaming /=/ Real-time 
-        * Examples? 
-        
-        Note: anyone think of examples of streaming not real time? I'm not devops person, not getting into warehousing issues here
+        ## Streaming vs. Real-time * Important for infrastructure planning * Streaming /=/ Real-time * Examples? Note: anyone think of examples of streaming not real time? I'm not devops person, not getting into warehousing issues here
       </section>
       <section>
         <h1>Some Reading</h1>
         <img src="img/RealtimeAnalytics.png" style="width:400px;" />
-    </section>
+      </section>
       <section data-markdown data-separator-notes="^Note:">
-        ## Libraries 
+        ## Javascript Libraries 
         --- 
-        * d3 
-        * Many built by startups to meet their needs: 
-          - crossfilter.js (Square) 
-          - Rickshaw.js (Shutterstock) 
-          - Epoch.js (Fastly) 
-        * My favorite:
-          - dc.js (Crossfilter + d3)
+        * [d3](http://d3js.org) 
+        - d3 abstractions: [nv3d.js](http://nvd3.org/)] | [c3.js](http://c3js.org/)
+        * Many built by startups to meet internal needs:
+        - [crossfilter.js](https://square.github.io/crossfilter/) (Square) <small>Client-side interactive filters</small>
+        - [rickshaw.js](http://code.shutterstock.com/rickshaw) (Shutterstock) <small>Built-in streaming</small>
+        - [epoch.js](http://fastly.github.io/epoch) (Fastly) <small>Simple, built-in streaming</small>
+        - [chart.js](chartjs.org) <small>Responsive but non-streaming</small>
+        - [dc.js](http://d3js.org) (Crossfilter + d3)
       </section>
       <section data-markdown data-background-iframe="http://fastly.github.io/epoch/">
       </section>
       <section>
-        <h1>Reports vs. dashboards</h1>
+        <h1>Reports vs. Dashboards</h1>
         <hr>
-        <p>if it changes during the day, it's a dashboard, <br>
-          otherwise it's a report.</p>
+        <p>if it changes during the day it's a dashboard,
+          <br> otherwise it's a report.</p>
       </section>
 
       <section data-markdown data-background-transition-speed="slow" data-background-iframe="http://laurenancona.github.io/twimoji/web/all-tweets.html">
@@ -143,19 +133,17 @@
       </section>
       <section data-background-iframe="http://analytics.phila.gov/">
       </section>
-      <script type="text/template">
-        Friday, July 17, 2015 
-        ##[World Emoji Day](http://worldemojiday.com/) 
-        
-        ![](http://worldemojiday.com/wp-content/uploads/2014/07/17-july.png)
-      </script>
       </section>
       <section data-markdown>
         <script type="text/template">
-          Code + data: ##[bit.ly/twimoji](http://bit.ly/twimoji) 
+          Code + data:
+          [Github](https://github.com/laurenancona/streamweaving)
           --- 
           [@laurenancona](https://twitter.com/laurenancona)
         </script>
+      </section>
+      <section data->
+
       </section>
     </div>
   </div>
